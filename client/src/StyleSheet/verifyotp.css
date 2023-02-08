@@ -1,0 +1,28 @@
+.osotp{
+    text-align: center;
+}
+.otp_form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+  }
+  
+  .otp_form > h1 {
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .otp_form > input {
+    margin-bottom: 20px;
+    border-radius: 999px;
+    padding: 10px;
+  }
+  
+  .Login__form > select {
+    margin-bottom: 20px;
+    border-radius: 999px;
+    padding: 10px;
+  }
+  

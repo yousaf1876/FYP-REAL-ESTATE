@@ -1,0 +1,50 @@
+.UserInput {
+  text-align: center;
+}
+
+.UserInput input {
+  margin: 1rem;
+  height: 2rem;
+  width: 15rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
+
+.UserInput input:active {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.UserInput button {
+  display: inline-block;
+  width: 15rem;
+  height: 2rem;
+  margin: 2.5rem 3rem 1rem;
+  background-color: rgba(0, 128, 0, 0.75);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px #fff;
+  font-size: 1.25rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  color: white;
+}
+
+.UserInput button:last-of-type {
+  background-color: rgba(255, 0, 0, 0.75);
+  margin: 1rem auto;
+}
+
+.UserInput button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.UserInput button:active {
+  transform: scale(1);
+}
+
+.UserInput button:focus {
+  outline: none;
+}

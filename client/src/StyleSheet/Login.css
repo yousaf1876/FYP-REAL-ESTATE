@@ -1,0 +1,29 @@
+.Login__form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+  }
+  
+  .Login__form > h1 {
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .Login__form > input {
+    margin-bottom: 20px;
+    border-radius: 999px;
+    padding: 10px;
+  }
+  
+  .Login__form > select {
+    margin-bottom: 20px;
+    border-radius: 999px;
+    padding: 10px;
+  }
+  .otpcenter{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+  }

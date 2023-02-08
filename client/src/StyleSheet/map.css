@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+.set{
+    align-items: center;
+    display: block;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    
+   
+    /* align-items: center;
+    justify-items: center;
+    display: flex; */
+
+}
+.imgset{
+    display: block;
+    margin: auto;
+    align-items: center;
+   justify-items: center;
+   
+    height:900px;
+    width:60%;
+    display: flex;
+    padding-top: 20px;
+}
